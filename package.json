@@ -1,0 +1,20 @@
+{
+  "name": "sauce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gabenunez@github.com/gabenunez/isthesauceout.git"
+  },
+  "keywords": [],
+  "author": "Gabe Nuñez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabenunez/isthesauceout/issues"
+  },
+  "homepage": "https://github.com/gabenunez/isthesauceout#readme"
+}
