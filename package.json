@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gabenunez/isthesauceout/issues"
   },
-  "homepage": "https://github.com/gabenunez/isthesauceout#readme"
+  "homepage": "https://github.com/gabenunez/isthesauceout#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
 }
