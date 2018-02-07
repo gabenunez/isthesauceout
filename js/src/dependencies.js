@@ -1,0 +1,1 @@
+require('../../node_modules/svg.js/dist/svg.js');
