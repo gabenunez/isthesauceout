@@ -19,6 +19,12 @@ html, body {
     animation: bounce 5s infinite ease-in-out;
 }
 
+@keyframes bounce {
+    0% { transform: translateY(-5px)  }
+    50% { transform: translateY(5px) }
+    100% { transform: translateY(-5px) }
+}
+
 #rick:hover {
     animation-play-state: paused;
 }
@@ -37,13 +43,19 @@ html, body {
     background-position: center;
 }
 
-@keyframes bounce {
-    0% { transform: translateY(-5px)  }
-    50% { transform: translateY(5px) }
-    100% { transform: translateY(-5px) }
+#rick > #head > #drool {
+    -webkit-animation: drooling 5s infinite ease-in-out;
+    -o-animation: drooling 5s infinite ease-in-out;
+    -ms-animation: drooling 5s infinite ease-in-out; 
+    -moz-animation: drooling 5s infinite ease-in-out; 
+    animation: drooling 5s infinite ease-in-out;
 }
 
-
+@keyframes drooling {
+    0% { transform: translateY(-17px)  }
+    50% { transform: translateY(0px) }
+    100% { transform: translateY(-17px) }
+}
 
 @media only screen and (max-width: 400px)  {
     #rick {
