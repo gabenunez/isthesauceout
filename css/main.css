@@ -25,10 +25,6 @@ html, body {
     100% { transform: translateY(-5px) }
 }
 
-#rick:hover {
-    animation-play-state: paused;
-}
-
 #rick > #head {
     filter: drop-shadow(0px 5px 20px #e77a6cde);
 }
