@@ -9,15 +9,23 @@ function isTheSauceOut() {
 
         // Safari: Just hide and show for because it doesn't
         // seem to support svgjs too well.
-        this.hide();
+        RickHead.hide();
         efNoSign.show();
 
     } else {
 
         // All Other Browsers: scale, then show the sign.
-        this.animate(500).scale(0, 0).after(function() {
+        RickHead.animate(500).scale(0, 0).after(function() {
             efNoSign.show();
-            
         });
+        
     }
-});
+}
+
+RickHead.click(isTheSauceOut);
+
+document.body.onkeyup = function (e) {
+    if (e.keyCode == 32) {
+        isTheSauceOut();
+    }
+}
