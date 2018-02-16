@@ -18,13 +18,13 @@ function isTheSauceOut() {
         RickHead.animate(500).scale(0, 0).after(function() {
             efNoSign.show();
         });
-        
+
     }
 }
 
 RickHead.click(isTheSauceOut);
 
-document.body.onkeyup = function (e) {
+document.body.onkeydown = function (e) {
     if (e.keyCode == 32) {
         isTheSauceOut();
     }
