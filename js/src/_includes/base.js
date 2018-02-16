@@ -4,7 +4,7 @@ var efNoSign = SVG.get("#ef-no");
 // Checks if the browser is Safari
 var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
-RickHead.click(function() {
+function isTheSauceOut() {
     if (is_safari) {
 
         // Safari: Just hide and show for because it doesn't
