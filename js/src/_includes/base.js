@@ -5,6 +5,7 @@ var efNoSign = SVG.get("#ef-no");
 var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
 function isTheSauceOut() {
+    document.getElementsByClassName('find-out')[0].style.visibility = 'hidden';
     if (is_safari) {
 
         // Safari: Just hide and show for because it doesn't

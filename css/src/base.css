@@ -87,6 +87,16 @@ h1 {
     animation: drooling 5s infinite ease-in-out;
 }
 
+.find-out {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 @keyframes drooling {
     0% { transform: translateY(-17px)  }
     50% { transform: translateY(0px) }
