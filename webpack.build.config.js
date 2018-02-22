@@ -26,7 +26,6 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin("./css/main.css"),
     new HtmlWebpackPlugin({
-        hash: true,
         filename: 'index.html',
         template: __dirname + '/index.html',
     }),
