@@ -28,6 +28,7 @@ module.exports = {
     new HtmlWebpackPlugin({
         filename: 'index.html',
         template: __dirname + '/index.html',
+        inject: false
     }),
   ]
 }
