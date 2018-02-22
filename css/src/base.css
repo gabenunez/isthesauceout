@@ -51,7 +51,7 @@ h1 {
 }
 
 #ef-no {
-    filter: drop-shadow(0px 0px 20px #ff0002);
+    filter: drop-shadow(0px 0px 10px #ff0002);
 }
 
 @keyframes bounce {
